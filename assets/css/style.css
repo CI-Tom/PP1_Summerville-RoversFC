@@ -76,6 +76,7 @@ div #logo {
 div #heading {
     display: flex;
     align-items: center;
+    letter-spacing: 2px;
 }
 
 
@@ -110,4 +111,65 @@ li a {
 .active {
     color: rgb(103, 182, 250);
     border-bottom: 2px solid;
+}
+
+
+/* Hero Image with Zoom Effect */
+
+.hero {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-image {
+    height: 850px;
+    width: 100%;
+    background: url('../images/main_pitch.png');
+
+    /* zoom out effect */
+    animation-name: zoom-out;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes zoom-out {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+/* Cover Text */
+
+.cover-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    width: 450px;
+    height: 320px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(99, 1, 50, 0.5);
+    right: 5%;
+    bottom: 5%;
+    position: absolute;
+}
+
+#cover-heading {
+    font-family: 'Lora', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cover-text p {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 500;
 }

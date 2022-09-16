@@ -33,3 +33,49 @@ p {
 img {
     width: 100%;
 }
+
+
+/* Logo & Heading */
+
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.navigation {
+    background-color: rgb(99, 1, 50);
+    height: 140px;
+    font-family: 'Lora', sans-serif;
+    width: 100%;
+}
+
+.navigation h1 {
+    font-size: 48px;
+    color: white;
+    padding-left: 25px;
+}
+
+div #logo {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+#logo img {
+    border-radius: 50%;
+}
+
+div #heading {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Navigation */

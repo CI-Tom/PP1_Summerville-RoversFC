@@ -93,7 +93,8 @@ div #heading {
 
 .navigation ul li a:hover {
     cursor: pointer;
-    border-bottom: 2px white solid;
+    color: rgb(103, 182, 250);
+    border-bottom: 2px solid;
 }
 
 nav.nav-links {
@@ -104,4 +105,9 @@ nav.nav-links {
 
 li a {
     color: white;
+}
+
+.active {
+    color: rgb(103, 182, 250);
+    border-bottom: 2px solid;
 }

@@ -167,10 +167,12 @@ li a {
     font-size: 30px;
     font-weight: 600;
     border-bottom: rgba(255, 255, 255, 0.8) double;
+    padding-bottom: 10px;
 }
 
 .cover-text p {
     text-align: justify;
     font-size: 18px;
     font-weight: 500;
+    padding: 0px 10px;
 }

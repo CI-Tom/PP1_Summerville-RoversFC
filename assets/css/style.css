@@ -76,7 +76,7 @@ div #logo {
 div #heading {
     display: flex;
     align-items: center;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 
 
@@ -166,6 +166,7 @@ li a {
     font-family: 'Lora', sans-serif;
     font-size: 30px;
     font-weight: 600;
+    border-bottom: rgba(255, 255, 255, 0.8) double;
 }
 
 .cover-text p {

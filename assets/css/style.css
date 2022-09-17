@@ -86,11 +86,14 @@ div #heading {
 .navigation ul {
     display: flex;
     padding: 0 10px 10px 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .navigation ul li {
     padding: 10px;
     margin: 0 5px;
+    white-space: nowrap;
 }
 
 .navigation ul li a:hover {
@@ -101,7 +104,7 @@ div #heading {
 
 nav.nav-links {
     display: flex;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     margin-left: auto;
     font-size: 20px;
 }
@@ -214,13 +217,13 @@ li a {
 }
 
 .about {
-    height: 490px;
+    /* height: 490px; */
     max-width: 1200px;
     display: flex;
     flex-direction: column;
     margin: 20px auto;
     overflow: auto;
-    padding-top: 10px;
+    padding: 10px 0;
 }
 
 .about p {
@@ -243,9 +246,9 @@ li a {
 
 /* Google Maps Location */
 
-section.location {
+/* section.location {
     height: 650px;
-}
+} */
 
 .map-container {
     max-width: 2560px;

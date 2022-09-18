@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* Logo & Heading */
+
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navigation {
+    background-color: rgb(99, 1, 50);
+    height: 140px;
+    font-family: 'Lora', sans-serif;
+    width: 100%;
+}
+
+.navigation h1 {
+    font-size: 48px;
+    color: white;
+    padding-left: 25px;
+}
+
+div #logo {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+#logo img {
+    border-radius: 50%;
+    min-width: 70px !important;
+    min-height: 70px !important;
+}
+
+div #heading {
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+}
+
+
+/* Navigation */
+
+.navigation ul {
+    display: flex;
+    padding: 0 10px 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation ul li {
+    padding: 10px;
+    margin: 0 5px;
+    white-space: nowrap;
+}
+
+.navigation ul li a:hover {
+    cursor: pointer;
+    color: rgb(103, 182, 250);
+    border-bottom: 2px solid;
+}
+
+nav.nav-links {
+    display: flex;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+li a {
+    color: white;
+}
+
+.active {
+    color: rgb(103, 182, 250);
+    border-bottom: 2px solid;
+}
+
+
+/* Contact Form */
+
+.contact {
+    background-image: url(../images/backgroundB.png);
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Footer & Social Media */
+
+.social {
+    background-color: rgb(0, 68, 141);
+    font-family: 'Roboto', sans-serif;
+    height: 140px;
+    width: 100%;
+}
+
+footer div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    border-radius: 50%;
+    min-width: 70px !important;
+    min-height: 70px !important;
+}
+
+div #footer-anchor {
+    display: flex;
+    align-items: center;
+}
+
+.social h2 {
+    font-size: 28px;
+    width: 555px;
+    color: white;
+    padding-left: 25px;
+    justify-content: left;
+}
+
+.social ul li {
+    padding-left: 75px;
+    margin: 0 5px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+li#youtube {
+    padding-right: 10px;
+}
+
+li#facebook {
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+.social div a:hover {
+    cursor: pointer;
+}
+
+ul.social-links {
+    width: 555px;
+    justify-content: right;
+}

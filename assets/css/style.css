@@ -72,6 +72,8 @@ div #logo {
 
 #logo img {
     border-radius: 50%;
+    min-width: 70px !important;
+    min-height: 70px !important;
 }
 
 div #heading {
@@ -301,15 +303,9 @@ footer div.container {
 }
 
 footer img {
-    width: 100px;
-    height: 100px;
     border-radius: 50%;
-}
-
-footer a#logo {
-    display: flex;
-    width: 100px;
-    height: 100px;
+    min-width: 70px !important;
+    min-height: 70px !important;
 }
 
 div #footer-anchor {
@@ -346,4 +342,8 @@ li#facebook {
 
 .social div a:hover {
     cursor: pointer;
+}
+
+ul.social-links {
+    margin-left: 89px;
 }

@@ -252,9 +252,9 @@ span a:hover {
     max-width: 1200px;
     display: flex;
     flex-direction: column;
-    margin: 20px auto;
+    margin: 0 auto;
     overflow: auto;
-    padding: 10px 0;
+    padding: 10px 0 25px 0;
 }
 
 .about p {

@@ -48,6 +48,7 @@ img {
 .flex {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100%;
 }
 
@@ -315,8 +316,10 @@ div #footer-anchor {
 
 .social h2 {
     font-size: 28px;
+    width: 555px;
     color: white;
     padding-left: 25px;
+    justify-content: left;
 }
 
 .social ul li {
@@ -345,16 +348,35 @@ li#facebook {
 }
 
 ul.social-links {
-    margin-left: 89px;
+    width: 555px;
+    justify-content: right;
 }
 
 
 /* Teams Page */
 
 .gallery {
+    padding: 10px 25px;
+}
+
+.team-pic img {
+    max-width: 800px;
+    height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    max-width: 1900px;
-    padding: 25px;
+    display: flex;
+    margin-right: auto;
+}
+
+.team-info {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.team-info h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: double;
 }

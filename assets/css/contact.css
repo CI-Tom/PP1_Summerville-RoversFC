@@ -137,7 +137,7 @@ textarea {
     width: 100%;
     padding: 10px;
     outline: 0;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 4px;
     color: rgb(0, 68, 141);
     background: transparent;
@@ -156,6 +156,9 @@ label {
     height: 100%;
     padding: 10px;
     color: white;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
 .contact-header h2 {
@@ -164,6 +167,7 @@ label {
     font-size: 32px;
     font-weight: 600;
     cursor: default;
+    letter-spacing: 1px;
 }
 
 .contact-header p {
@@ -172,11 +176,12 @@ label {
     font-size: 20px;
     font-weight: 500;
     cursor: default;
+    letter-spacing: 1px;
 }
 
 form {
     width: 90%;
-    max-width: 750px;
+    max-width: 900px;
 }
 
 button {

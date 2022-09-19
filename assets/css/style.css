@@ -380,6 +380,7 @@ ul.social-links {
     display: flex;
     flex-direction: column;
     line-height: 2;
+    padding: 25px;
 }
 
 .team-info h2 {

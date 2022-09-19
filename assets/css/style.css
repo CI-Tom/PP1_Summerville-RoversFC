@@ -416,6 +416,7 @@ img.team2 {
     .navigation h1.svrh1 {
         font-size: 40px;
     }
+
     .navigation h1.fch1 {
         font-size: 40px;
     }
@@ -425,6 +426,7 @@ img.team2 {
     .navigation h1.svrh1 {
         font-size: 36px;
     }
+
     .navigation h1.fch1 {
         font-size: 36px;
     }
@@ -440,11 +442,32 @@ img.team2 {
     #heading {
         flex-direction: column;
     }
+
     .navigation h1.svrh1 {
         white-space: nowrap;
     }
+
     .navigation h1.fch1 {
         white-space: nowrap;
+    }
+
+    ul.social-links {
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .social {
+        height: 230px;
+    }
+
+    .social div {
+        flex-direction: column-reverse;
+    }
+
+    .social h2 {
+        padding: 0 20px;
+        justify-content: center;
+        width: auto;
     }
 }
 
@@ -458,16 +481,96 @@ img.team2 {
     .navigation div {
         flex-direction: column;
     }
+
     .navigation {
         height: 300px;
     }
+
     .navigation ul {
         flex-direction: row;
     }
+
     nav.nav-links {
         margin: 0 auto;
     }
-    div #logo, .navigation h1.svrh1, .navigation h1.fch1 {
+
+    div #logo,
+    .navigation h1.svrh1,
+    .navigation h1.fch1 {
         padding-left: 0;
+    }
+
+    .contact-header h2 {
+        margin-top: 20px;
+    }
+
+    .social h2 {
+        font-size: 20px;
+    }
+
+    ul.social-links {
+        font-size: 0.5em;
+    }
+
+    .social {
+        height: 200px;
+    }
+
+    li#youtube {
+        padding: 0 30px;
+    }
+
+    li#facebook {
+        margin: 0;
+        padding: 0 20px;
+    }
+
+    .social ul li {
+        margin: 0;
+        padding: 0;
+    }
+
+    .button {
+        margin-top: 0;
+    }
+    ul.social-links li {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .navigation h1.svrh1,
+    .navigation h1.fch1 {
+        font-size: 32px;
+    }
+
+    .contact-header h2 {
+        font-size: 20px;
+    }
+
+    .contact-header p {
+        font-size: 16px;
+    }
+
+    .inputs label {
+        font-size: 16px;
+    }
+
+    .inputs input {
+        font-size: 16px;
+    }
+
+    div.inputs {
+        padding-bottom: 50px;
+    }
+
+    footer img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .social {
+        height: 160px;
     }
 }

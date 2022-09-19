@@ -471,6 +471,28 @@ img.team2 {
     }
 }
 
+@media screen and (max-width: 940px) {
+    #cover-heading {
+        font-size: 24px;
+    }
+    .cover-text p {
+        font-size: 16px;
+    }
+    .cover-text {
+        width: 420px;
+        height: 320px;
+    }
+    .cover-text span {
+        font-size: 18px;
+    }
+    #welcome-heading {
+        font-size: 36px;
+    }
+    .about p {
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width: 780px) {
     .navigation ul {
         flex-direction: column;
@@ -535,6 +557,22 @@ img.team2 {
     }
     ul.social-links li {
         padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #cover-heading {
+        font-size: 20px;
+    }
+    .cover-text p {
+        font-size: 14px;
+    }
+    .cover-text {
+        width: 370px;
+        height: 280px;
+    }
+    .cover-text span {
+        font-size: 16px;
     }
 }
 

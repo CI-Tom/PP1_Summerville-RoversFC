@@ -67,10 +67,16 @@ hr {
     width: 100%;
 }
 
-.navigation h1 {
+.navigation h1.svrh1 {
     font-size: 48px;
     color: white;
     padding-left: 25px;
+}
+
+.navigation h1.fch1 {
+    font-size: 48px;
+    color: white;
+    padding-left: 15px;
 }
 
 div #logo {
@@ -96,6 +102,7 @@ div #heading {
 
 .navigation ul {
     display: flex;
+    /* flex-direction: column; */
     padding: 0 10px 10px 0;
     justify-content: center;
     align-items: center;
@@ -400,4 +407,67 @@ img.team1 {
 
 img.team2 {
     box-shadow: -0.3em 3px rgb(0, 68, 141, 0.2);
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1270px) {
+    .navigation h1.svrh1 {
+        font-size: 40px;
+    }
+    .navigation h1.fch1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .navigation h1.svrh1 {
+        font-size: 36px;
+    }
+    .navigation h1.fch1 {
+        font-size: 36px;
+    }
+
+    nav.nav-links {
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    #heading {
+        flex-direction: column;
+    }
+    .navigation h1.svrh1 {
+        white-space: nowrap;
+    }
+    .navigation h1.fch1 {
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .navigation ul {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .navigation div {
+        flex-direction: column;
+    }
+    .navigation {
+        height: 300px;
+    }
+    .navigation ul {
+        flex-direction: row;
+    }
+    nav.nav-links {
+        margin: 0 auto;
+    }
+    div #logo, .navigation h1.svrh1, .navigation h1.fch1 {
+        padding-left: 0;
+    }
 }

@@ -49,22 +49,37 @@
         </div>
     </header>
 
-    <section class="contact container flex">
-        <div class="content">
-            <div class="details">
-                <p>address</p>
-                <p>phone</p>
-                <p>email</p>
-                <p>facebook</p>
-            </div>
-            <div>
-                <h2>contact us</h2>
-                <p>Get in touch for more information about any of our teams or if you or your child would like to join.
-                </p>
-                <p>You can also use this form to request information on available slots for our all-weather pitch or to
-                    book
-                    the grounds for a tournament or event.</p>
-            </div>
+    <section class="form-section">
+        <div class="background">
+
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                <div class="contact-header">
+                    <h2>Contact US</h2>
+                    <p>Please feel free to contact us for more information about the club or any of our teams.<br>Or if
+                        you
+                        or your
+                        child are considering joining and want to know how, leave your details and a message and we'll
+                        get
+                        back
+                        to you ASAP!</p>
+                </div>
+                <div class="inputs">
+                    <label for="fname">First Name</label>
+                    <input class="text-input" id="fname" name="first_name" type="text" required>
+
+                    <label for="lname">Last Name</label>
+                    <input class="text-input" id="lname" name="last_name" type="text" required>
+
+                    <label for="email">Email Address</label>
+                    <input class="text-input" type="email" id="email" name="email_address" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter message"></textarea>
+                </div>
+
+                <button type="submit">SUBMIT</button>
+            </form>
+
         </div>
     </section>
 
